@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adrian Aliquintui</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body data-spy="scroll" data-bs-target="#menu">
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" role="navegation">
+        <div class="container-fluid">
+            <!-- icono o nombre -->
+
+            <a class="navbar-brand" href="index.html">
+                <span class="text-warning ">Inicio</span>
+            </a>
+
+            <!-- boton del menu -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- elementos del menu colapsable -->
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="#seccion1">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion2">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion3">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion4">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion5">Otras Habilidades</a>
+                    </li>
+                    <li class="nav-item j">
+                        <a class="nav-link btn btn-outline-warning d-md-inline-block" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <!--Portada-->
+    <div class="contenedor row">
+        <img src="./imagenes/portada.png" class="img-fluid p-0" alt="portada">
+        <h1 class="centrar display-2 ">Soy Adrian Aliquintui,
+        </h1>
+        <p class=" centrara display-6 ">y soy desarrollador full stack júnior</p>
+
+
+    </div>
+
+    <div class=" my-5 pt-5">
+        <h2 class="display-5 text-center">Mi historia</h2>
+        <hr style="width: 50%;margin: auto;">
+    </div>
+    <div class="container bg-light mt-5 rounded shadow">
+        <p class=" historia p-4">&nbsp &nbsp Soy Adrian Aliquintui, tengo 30 años, nací en Coyhaique, Chile. A los 5 años con mi madre nos mudamos a Argentina, donde me desarrolle hasta el dia de hoy, termine mi secundario, luego Estudié en la UNPSJB Ingeniería Civil, mientras
+            realizaba algún trabajo, conforme avance, sentí que la carrera no era para mi y por curiosidad comencé a programar.
+            <br>&nbsp &nbsp Actualmente me gusta, continúo aprendiendo y eso me llevó al curso de Argentina Programa, donde me certifiqué como Desarrollador Full Stack.
+        </p>
+    </div>
+
+    <!--contenido-->
+    <div class="container">
+
+
+
+        <!--Portafolio-->
+        <div class="seccion" id="seccion1">
+            <div class="portafolio mt-5 mb-5">
+                <h2 class="display-5 text-center">Mi Portafolio</h2>
+                <hr style="width: 50%;margin: auto;">
+            </div>
+
+            <div id="slider" class="alto carousel slide shadow-lg bg-light" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider" data-slide-to="1"></li>
+                    <li data-target="#slider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div>
+                            <a href="https://www.google.com/" class="link">
+                                <img class="rel alto d-inline w-50 float-start" src="imagenes/portafolio/wohl.png" alt="First slide">
+                            </a>
+                            <div class="absi">
+                                <h5>Titulo 1</h5>
+                                <p class="expPorf">Explicación breve, incluyendo las tecnologías empleadas.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="https://www.google.com/" class="link">
+                                <img class="rel alto d-inline w-50 float-start" src="imagenes/portafolio/organizador.png" alt="First slide">
+                            </a>
+                            <div class="absd">
+                                <h5>Titulo 2</h5>
+                                <p class="expPorf">Explicación breve, incluyendo las tecnologías empleadas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev " href="#slider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon sombras " aria-hidden="true" style="background-color:black ;"></span>
+                    <span class="sr-only sombras" style="background-color:black ; padding: 4px;">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                    <span class="sr-only sombras" style="background-color:black ; padding: 4px;">Next</span><span class="carousel-control-next-icon" aria-hidden="true" style="background-color:black ;"></span>
+                </a>
+            </div>
+        </div>
+
+
+
+        <!--Habilidades-->
+        <div class="seccion" id="seccion2">
+            <div class=" mt-5 mb-5">
+                <h2 class="display-5 text-center">Mis Habilidades</h2>
+                <hr style="width: 50%;margin: auto;">
+            </div>
+
+            <div class="habilidades row shadow-lg">
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/lenguage/imgLg1.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Java Script </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 80%; opacity: 50%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/lenguage/imgLg2.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>HTML</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%; opacity: 50%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/lenguage/imgLg3.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>CSS</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%; opacity: 50%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src=" ./imagenes/lenguage/imgLg4.png " class="card-img-top p-2" alt="... ">
+                    <div class="card-body ">
+                        <p class="card-text text-center "><b>React </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; opacity: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/lenguage/imgLg5.png " class="card-img-top p-2" alt="... ">
+                    <div class="card-body ">
+                        <p class="card-text text-center "><b>Angular </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; opacity: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/lenguage/imgLg6.png " class="card-img-top p-2" alt=" ... ">
+                    <div class=" card-body ">
+                        <p class=" card-text text-center text-end "><b>bootstrap </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; opacity: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card col-lg-2 col-md-3 col-sm-4 col-4 ">
+                    <img src=" ./imagenes/lenguage/imgLg7.png " class=" card-img-top p-2" alt=" ... ">
+                    <div class=" card-body ">
+                        <p class=" card-text text-center "><b>TypeScript</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; opacity: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card col-lg-2 col-md-3 col-sm-4 col-4 ">
+                    <img src=" ./imagenes/lenguage/imgLg8.png " class=" card-img-top p-2" alt=" ... ">
+                    <div class=" card-body ">
+                        <p class=" card-text text-center "><b>Java </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; opacity: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card col-lg-2 col-md-3 col-sm-4 col-4 ">
+                    <img src=" ./imagenes/lenguage/imgLg9.png " class=" card-img-top p-2" alt=" ... ">
+                    <div class=" card-body ">
+                        <p class=" card-text text-center "><b>MySQL </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; opacity: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card col-lg-2 col-md-3 col-sm-4 col-4 ">
+                    <img src=" ./imagenes/lenguage/imgLg10.png " class=" card-img-top p-2" alt=" ... ">
+                    <div class=" card-body ">
+                        <p class=" card-text text-center "><b>Python</b> </p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%; opacity: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card col-lg-2 col-md-3 col-sm-4 col-4 ">
+                    <img src=" ./imagenes/lenguage/Git.png " class=" card-img-top p-2" alt=" ... ">
+                    <div class=" card-body ">
+                        <p class=" card-text text-center "><b>Git </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 50%; opacity: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" card col-lg-2 col-md-3 col-sm-4 col-4 ">
+                    <img src=" ./imagenes/lenguage/imgLg12.png " class=" card-img-top p-2" alt=" ... ">
+                    <div class=" card-body ">
+                        <p class=" card-text text-center text-end "><b>Scilab </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 30%; opacity: 50%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Hobbies-->
+        <div class="seccion" id="seccion3">
+            <div class=" mt-5 mb-5 ">
+                <h2 class=" display-5 text-center ">Mis Hobbies</h2>
+                <hr style=" width: 50%;margin: auto; ">
+            </div>
+            <div class=" hobbies row shadow-lg ">
+                <div class=" card col-md-4 col-6 ">
+                    <div class=" contenedor1 ">
+                        <img src=" ./imagenes/hobbies/ingles.png " class=" card-img-top " alt=" ... ">
+                        <div class=" tapar ">
+                            <p> Uno de mis objetivos es aprender ingles, que aprendo de forma autodidacta.</p>
+                        </div>
+                    </div>
+                    <div class=" card-body ">
+                        <p class=" titulo card-text text-center text-end ">Aprender Ingles</p>
+                    </div>
+                </div>
+                <div class=" card col-md-4 col-6 ">
+                    <div class=" contenedor1 ">
+                        <img src=" ./imagenes/hobbies/river.png " class=" card-img-top " alt=" ... ">
+                        <div class=" tapar ">
+                            <p> Disfruto ver fútbol y soy simpatizante de River Plate.</p>
+                        </div>
+                    </div>
+                    <div class=" card-body ">
+                        <p class=" titulo card-text text-center text-end ">Ver Fútbol</p>
+                    </div>
+                </div>
+                <div class=" card col-md-4 col-6 ">
+                    <div class=" contenedor1 ">
+                        <img src=" ./imagenes/hobbies/caminar.png " class=" card-img-top " alt=" ... ">
+                        <div class=" tapar ">
+                            <p> Salgo a caminar para mantener una actividad y pensar.</p>
+                        </div>
+                    </div>
+                    <div class=" card-body ">
+                        <p class=" titulo card-text text-center text-end ">Caminar</p>
+                    </div>
+                </div>
+                <div class=" card col-md-4 col-6 ">
+                    <div class=" contenedor1 ">
+                        <img src=" ./imagenes/hobbies/playa.png " class=" card-img-top " alt=" ... ">
+                        <div class=" tapar ">
+                            <p>Disfruto ver las olas del mar que me ofrece la ciudad de Comodoro Rivadavia.</p>
+                        </div>
+                    </div>
+                    <div class=" card-body ">
+                        <p class=" titulo card-text text-center text-end ">Playa</p>
+                    </div>
+                </div>
+                <div class=" card col-md-4 col-6 ">
+                    <div class=" contenedor1 ">
+                        <img src=" ./imagenes/hobbies/cafe.png " class=" card-img-top " alt=" ... ">
+                        <div class=" tapar ">
+                            <p>Cuando programo, suelo prepararme un cafe.</p>
+                        </div>
+                    </div>
+                    <div class=" card-body ">
+                        <p class=" titulo card-text text-center text-end ">Cafe</p>
+                    </div>
+                </div>
+                <div class=" card col-md-4 col-6 ">
+                    <div class=" contenedor1 ">
+                        <img src=" ./imagenes/hobbies/series.png " class=" card-img-top " alt=" ... ">
+                        <div class=" tapar ">
+                            <p>Para liberar el estrés de una jornada, suelo mirar un capitulo de alguna serie.</p>
+                        </div>
+                    </div>
+                    <div class=" card-body ">
+                        <p class=" titulo card-text text-center text-end ">Series</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="seccion" id="seccion4">
+            <div class=" mt-5 mb-5 ">
+                <h2 class=" display-5 text-center ">Experiencia Laboral</h2>
+                <hr style=" width: 50%;margin: auto; ">
+            </div>
+            <div id="carouselExampleControls" class="carousel slide alto mb-3 shadow experiencia bg-light" style="margin: auto;" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active experienciaC">
+                        <img src="./imagenes/experiencia/qida.png" class="alto d-block w-100 p-5 " style="object-fit: cover;" alt="...">
+                        <div class="experienciaE">
+                            <p>Qida empresa de tarjeta de credito <br> Puesto: cadete comercial <br> <br> Me desenvolvi en tareas de inventario, ayudando al área de marketing, realizando envios y análisis comercial de las campañas comerciales realizadas.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item experienciaC">
+                        <img src="./imagenes/experiencia/marzano.png" class="alto d-block w-100 p-5" style="object-fit: cover;" alt="...">
+                        <div class="experienciaE">
+                            <p> Marzano pizzas Gourmet empresa de venta de comida <br>Puesto: ayudante de cocina
+                                <br><br> Realice tareas de limpieza y preparacion de alimentos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item experienciaC">
+                        <img src="./imagenes/experiencia/dani.png" class="alto d-block w-100 p-5" style="object-fit: cover;" alt="...">
+                        <div class="experienciaE">
+                            <p> Daniela Eventos empresa de catering <br>Puesto: mozo posteriormente ayudante de cocina.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-color:black ;" aria-hidden="true"></span>
+
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="background-color:black ;" aria-hidden="true"></span>
+
+                </button>
+            </div>
+        </div>
+        <div class="seccion mb-3" id="seccion5">
+            <div class=" mt-5 mb-5 ">
+                <h2 class=" display-5 text-center ">Otras Habilidades</h2>
+                <hr style=" width: 50%;margin: auto; ">
+            </div>
+            <div class="habilidades row shadow-lg">
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/cad.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Auto Cad </b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 80%; opacity: 50%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/excel.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Excel</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 80%; opacity: 50%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/gimp.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Gimp</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 55%; opacity: 50%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/inskape.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Inskape</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 30%; opacity: 50%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/estructura.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Cálculo de estructuras</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 61%; opacity: 50%;" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/instalaciones.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Cálculo de instalaciones</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 60%; opacity: 50%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/analisis.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Análisis Mátematico</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 70%; opacity: 50%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/algebra.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Algebra</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 65%; opacity: 50%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/geotecnia.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Geótecnia</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 55%; opacity: 50%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/hidraulica.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Hidráulica</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 42%; opacity: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/teodolito.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Teodolito</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 33%; opacity: 50%;" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-lg-2 col-md-3 col-sm-4 col-4">
+                    <img src="./imagenes/habilidades/torno.png" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center"><b>Torno</b></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success " role="progressbar" style="width: 35%; opacity: 50%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer container my-5 pt-5">
+        <h5>Contacto: aa.aliquintuigonzalez@gmail.com</h5>
+    </div>
+    <script src="admin.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity=" sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin=" anonymous "></script>
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity=" sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js " integrity=" sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js " integrity=" sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin=" anonymous "></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,284 @@
+body {
+    position: relative;
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.seccion {
+    padding-top: 25px;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.expPorf {
+    width: 20em;
+}
+
+.espacio {
+    margin-top: 75px
+}
+
+.contenedor {
+    margin-top: 56px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.centrar {
+    color: #f8f9fa;
+    font-weight: 400;
+    white-space: nowrap;
+    position: absolute;
+    overflow: hidden;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+}
+
+.centrara {
+    color: #f8f9fa;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transition: all 1s;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black, 1px 1px 2px black;
+}
+
+.alto {
+    max-height: 400px;
+    height: clamp(100px, 50%, 350px);
+    position: relative;
+    text-align: center;
+}
+
+.rel {
+    position: relative;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.experiencia {
+    width: 50%;
+}
+
+.absi {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black;
+}
+
+.absd {
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black;
+}
+
+#slider {
+    width: 80%;
+    margin: auto;
+}
+
+.sombras {
+    text-shadow: 1px 1px 2px black, 1px 1px 2px black;
+}
+
+.link:hover {
+    filter: opacity(0.8);
+}
+
+.card {
+    padding: 0;
+}
+
+.bg {
+    background-image: url(./imagenes/login/espalda.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.contenedor1 {
+    position: relative;
+}
+
+.experienciaC {
+    position: relative;
+}
+
+.experienciaE {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    background-color: #111;
+    top: 0;
+    height: 0;
+    opacity: 0.9;
+    transition: all 1s !important;
+}
+
+.experienciaC:hover>.experienciaE {
+    display: block;
+    overflow: visible;
+    opacity: 0.8;
+    height: 100%;
+}
+
+.experienciaE p {
+    width: 80%;
+    font-size: 1.3em;
+    line-height: 1.25em;
+    text-align: center;
+    position: absolute;
+    color: #eee;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tapar {
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    height: 0;
+    overflow: hidden;
+    top: 0;
+    transition: all 1s;
+}
+
+.tapar p {
+    width: 80%;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor1:hover>.tapar {
+    opacity: 0.75;
+    height: 100%;
+    overflow: visible;
+}
+
+.titulo {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hobbies {
+    width: 80%;
+    margin: auto;
+}
+
+.j {
+    top: 5px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+    .expPorf {
+        width: 14em;
+    }
+    #slider {
+        width: 100%;
+    }
+    .experienciaE p {
+        width: 70%;
+        font-size: 1.2em;
+        line-height: 1.15em;
+    }
+}
+
+@media (max-width: 767px) {
+    .hobbies,
+    #slider {
+        width: 100%;
+    }
+    .j {
+        position: static;
+        right: 0;
+        margin-right: 0px;
+    }
+    .experiencia {
+        width: 100%;
+    }
+    .tapar p {
+        font-size: 1.1em;
+        line-height: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .centrar {
+        font-size: 2em;
+    }
+    .centrara {
+        font-size: 1.2em;
+    }
+    .contenedor h1,
+    .contenedor p {
+        position: relative;
+    }
+    .contenedor h1 {
+        margin-top: 25px;
+    }
+    .centrara,
+    .centrar {
+        margin: 0;
+        color: black;
+        text-shadow: 0px 0px 0px #777;
+    }
+    .expPorf {
+        width: 10.5em;
+    }
+    .experienciaE p {
+        width: 75%;
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+}
+
+@media (max-width: 360px) {
+    .tapar p {
+        width: 80%;
+        font-size: 1em;
+        line-height: 1em;
+    }
+}
+
+.historia {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
